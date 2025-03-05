@@ -99,3 +99,9 @@ line-length = 100
 # Never enforce `E501` (line length violations).
 ignore = ["E501"]
 select = ["E", "F", "I", "W", "UP"]
+
+[tool.flit.sdist]
+include = ["scripts/**"]
+
+[tool.flit.wheel]
+include = ["scripts/**"]
