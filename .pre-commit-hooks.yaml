@@ -7,7 +7,7 @@
 - id: pip-audit-manifest
   name: pip-audit-manifest
   description: "Audit requirements.txt and pyproject.toml files for vulnerabilities"
-  entry: python scripts/pip_audit_manifest.py
+  entry: python pip_audit/_pip_audit_manifest.py
   language: python
   files: '(requirements\.txt|pyproject\.toml)$'
   pass_filenames: true
